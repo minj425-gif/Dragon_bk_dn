@@ -26,7 +26,7 @@ jobs:
       - name: 상영시간 확인
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python cgv_alert.py
+        run: python dragon_bk_dn.py
 
       - name: 기록 저장
         run: |
